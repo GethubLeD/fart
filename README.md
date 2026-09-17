@@ -1,3 +1,3 @@
-# Fart Étape 4.1
+# Fart Étape 4.2
 
-Les curseurs séparés ont été retirés. Le rognage se règle directement en faisant glisser les deux poignées violettes sur la forme d'onde, à la souris ou au doigt.
+Poignées de rognage simplifiées, sans symbole à trois points. Le déplacement tactile et souris reste inchangé.
