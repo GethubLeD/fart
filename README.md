@@ -1,3 +1,3 @@
-# Fart Étape 4
+# Fart Étape 4.1
 
-Ajoute le rognage non destructif, la lecture bornée, la progression et le déplacement dans le son. Les sons persistent dans IndexedDB.
+Les curseurs séparés ont été retirés. Le rognage se règle directement en faisant glisser les deux poignées violettes sur la forme d'onde, à la souris ou au doigt.
