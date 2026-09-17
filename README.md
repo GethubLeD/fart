@@ -1,21 +1,18 @@
-# Fart - V1 Étape 1
+# Fart - V1 Étape 2
 
-Prototype statique mobile-first. Cette étape utilise uniquement des données simulées : aucun microphone, aucun fichier audio et aucune persistance IndexedDB.
+## Fonctionnel
+- Microphone réel via MediaRecorder
+- Maintien pour enregistrer, relâchement pour arrêter
+- Arrêt automatique à 20 secondes
+- Rejet sous 0,3 seconde
+- Détection automatique WebM/Opus, MP4/AAC ou format par défaut
+- Niveau dBFS indicatif et vague réactive
+- Préécoute réelle, pause, déplacement dans le son
+- Véritable forme d’onde simplifiée
+- Bibliothèque temporaire, lecture, notation et suppression
 
-## Tester
+## Limite volontaire
+Les sons disparaissent après rechargement ou fermeture. La persistance IndexedDB arrive à l’étape 3.
 
-Publier les fichiers sur GitHub Pages ou utiliser un serveur statique. Ne pas ouvrir seulement `index.html` avec `file://`, car les modules JavaScript peuvent être bloqués.
-
-## Inclus
-
-- Accueil et maintien simulé pour enregistrer
-- Vague organique réactive et compteur dB simulé
-- Fenêtre de préécoute, nom et sauvegarde simulée
-- Bibliothèque, recherche et tris
-- Notation (x)/(o), renommage, suppression
-- Fiche détaillée et rognage visuel
-- Français et anglais
-
-## Non inclus à cette étape
-
-Microphone réel, lecture réelle, IndexedDB, forme d’onde réelle, export réel, import et PWA hors connexion.
+## Publication GitHub Pages
+Décompresser le ZIP puis remplacer les fichiers du dépôt par `index.html`, `css/` et `js/`. Conserver `index.html` à la racine.
